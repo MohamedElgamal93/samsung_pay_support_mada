@@ -1,4 +1,4 @@
-import 'package:samsung_pay_sdk_flutter_Mada/model/wallet_card.dart';
+import 'package:samsung_pay_sdk_flutter_mada/model/wallet_card.dart';
 
 import 'model/custom_sheet.dart';
 import 'model/custom_sheet_payment_info.dart';

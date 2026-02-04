@@ -1,10 +1,10 @@
 import 'dart:convert' show jsonDecode;
 
 import 'package:flutter/material.dart';
-import 'package:samsung_pay_sdk_flutter_Mada/model/amount_box_control.dart';
-import 'package:samsung_pay_sdk_flutter_Mada/model/custom_sheet.dart';
-import 'package:samsung_pay_sdk_flutter_Mada/model/custom_sheet_payment_info.dart';
-import 'package:samsung_pay_sdk_flutter_Mada/samsung_pay_sdk_flutter.dart';
+import 'package:samsung_pay_sdk_flutter_mada/model/amount_box_control.dart';
+import 'package:samsung_pay_sdk_flutter_mada/model/custom_sheet.dart';
+import 'package:samsung_pay_sdk_flutter_mada/model/custom_sheet_payment_info.dart';
+import 'package:samsung_pay_sdk_flutter_mada/samsung_pay_sdk_flutter.dart';
 import 'dart:async';
 
 import 'dart:io';

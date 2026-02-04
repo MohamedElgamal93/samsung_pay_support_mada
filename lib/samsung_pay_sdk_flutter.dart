@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-import 'package:samsung_pay_sdk_flutter_Mada/model/payment_card_info.dart';
-import 'package:samsung_pay_sdk_flutter_Mada/samsung_pay_sdk_flutter_method_channel.dart';
+import 'package:samsung_pay_sdk_flutter_mada/model/payment_card_info.dart';
+import 'package:samsung_pay_sdk_flutter_mada/samsung_pay_sdk_flutter_method_channel.dart';
 import 'model/custom_sheet.dart';
 import 'model/custom_sheet_payment_info.dart';
 import 'samsung_pay_sdk_flutter.dart';

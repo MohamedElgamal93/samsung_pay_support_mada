@@ -1,6 +1,6 @@
-import 'package:samsung_pay_sdk_flutter_Mada/model/sheet_control.dart';
-import 'package:samsung_pay_sdk_flutter_Mada/model/sheet_item.dart';
-import 'package:samsung_pay_sdk_flutter_Mada/spay_core.dart';
+import 'package:samsung_pay_sdk_flutter_mada/model/sheet_control.dart';
+import 'package:samsung_pay_sdk_flutter_mada/model/sheet_item.dart';
+import 'package:samsung_pay_sdk_flutter_mada/spay_core.dart';
 
 /// This class provides AmountBoxControl on custom payment sheet.<br>
 /// AmountBoxControl is used for displaying amount information on custom payment sheet.<br>

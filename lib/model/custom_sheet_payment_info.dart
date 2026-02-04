@@ -1,7 +1,7 @@
-import 'package:samsung_pay_sdk_flutter_Mada/model/payment_card_info.dart';
-import 'package:samsung_pay_sdk_flutter_Mada/model/sheet_control.dart';
-import 'package:samsung_pay_sdk_flutter_Mada/samsung_pay_listener.dart';
-import 'package:samsung_pay_sdk_flutter_Mada/spay_core.dart';
+import 'package:samsung_pay_sdk_flutter_mada/model/payment_card_info.dart';
+import 'package:samsung_pay_sdk_flutter_mada/model/sheet_control.dart';
+import 'package:samsung_pay_sdk_flutter_mada/samsung_pay_listener.dart';
+import 'package:samsung_pay_sdk_flutter_mada/spay_core.dart';
 import 'address.dart';
 import 'address_control.dart';
 import 'amount_box_control.dart';
