@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:samsung_pay_sdk_flutter/model/wallet_card.dart';
-import 'package:samsung_pay_sdk_flutter/samsung_pay_sdk_flutter.dart';
+import 'package:samsung_pay_sdk_flutter_Mada/model/wallet_card.dart';
+import 'package:samsung_pay_sdk_flutter_Mada/samsung_pay_sdk_flutter.dart';
 
 /// This class provides card information for enrollment.
 ///

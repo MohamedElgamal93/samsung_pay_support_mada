@@ -1,4 +1,4 @@
-import 'package:samsung_pay_sdk_flutter/samsung_pay_sdk_flutter.dart';
+import 'package:samsung_pay_sdk_flutter_Mada/samsung_pay_sdk_flutter.dart';
 
 ///
 /// This class holds the partner information.

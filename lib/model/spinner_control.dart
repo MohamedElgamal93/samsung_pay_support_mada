@@ -1,7 +1,7 @@
 import 'dart:convert' show jsonDecode;
 
-import 'package:samsung_pay_sdk_flutter/model/sheet_control.dart';
-import 'package:samsung_pay_sdk_flutter/model/sheet_item.dart';
+import 'package:samsung_pay_sdk_flutter_Mada/model/sheet_control.dart';
+import 'package:samsung_pay_sdk_flutter_Mada/model/sheet_item.dart';
 import '../samsung_pay_listener.dart';
 import '../spay_core.dart';
 

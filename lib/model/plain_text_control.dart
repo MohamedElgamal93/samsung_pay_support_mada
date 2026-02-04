@@ -1,6 +1,6 @@
-import 'package:samsung_pay_sdk_flutter/model/sheet_control.dart';
-import 'package:samsung_pay_sdk_flutter/model/sheet_item.dart';
-import 'package:samsung_pay_sdk_flutter/spay_core.dart';
+import 'package:samsung_pay_sdk_flutter_Mada/model/sheet_control.dart';
+import 'package:samsung_pay_sdk_flutter_Mada/model/sheet_item.dart';
+import 'package:samsung_pay_sdk_flutter_Mada/spay_core.dart';
 
 /// This class provides PlainTextControl on custom payment sheet.<br>
 /// This control is used for displaying 2-line text with title or 1-line text without title.

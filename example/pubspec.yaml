@@ -1,5 +1,5 @@
-name: samsung_pay_sdk_flutter_example
-description: Demonstrates how to use the samsung_pay_sdk_flutter plugin.
+name: samsung_pay_sdk_flutter_Mada_example
+description: Demonstrates how to use the samsung_pay_sdk_flutter_Mada plugin.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -17,7 +17,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  samsung_pay_sdk_flutter:
+  samsung_pay_sdk_flutter_Mada:
     path: ../../samsungpaysdkflutter
 
   cupertino_icons: ^1.0.2

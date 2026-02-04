@@ -1,10 +1,10 @@
 {
   "roots": [
-    "samsung_pay_sdk_flutter"
+    "samsung_pay_sdk_flutter_Mada"
   ],
   "packages": [
     {
-      "name": "samsung_pay_sdk_flutter",
+      "name": "samsung_pay_sdk_flutter_Mada",
       "version": "1.0.4",
       "dependencies": [
         "dartdoc",
