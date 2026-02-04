@@ -102,12 +102,6 @@ class AddCardInfo {
 
   ///  Indicates that the card tokenization provider is VaccinePass.<br>
   ///  refer addCard(AddCardInfo, AddCardListener) in detail.<br>
-  /// <br>
-  ///
-  ///<br/><font color="blue">
-  ///    <b>Json Object Specification</b><br>
-  ///</font>
-  ///
   /// Mandatory fields: version, cardId, type, cardArt, qrData, decoding, chunks, chunk,
   /// provider.name, patient.name, vaccine.product, vaccine.date, performer
   ///
