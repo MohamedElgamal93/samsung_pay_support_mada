@@ -2,7 +2,7 @@ name: samsung_pay_sdk_flutter
 description: SamsungPay SDK depends on the official SDK from Samsung offers an easy way to implement samsung pay for android devices and support MADA
 version: 1.0.4
 homepage: https://developer.samsung.com/codelab/pay/flutter-plugin.html#Objective
-repository: https://github.com/MohamedElgamal/samsungpaysdkflutter
+repository: https://github.com/MohamedElgamal93/samsung_pay_support_mada
 environment:
   sdk: '>=3.1.0 <4.0.0'
   flutter: '>=3.3.0'
