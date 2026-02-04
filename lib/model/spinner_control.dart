@@ -1,4 +1,5 @@
-import 'dart:convert';
+import 'dart:convert' show jsonDecode;
+
 import 'package:samsung_pay_sdk_flutter/model/sheet_control.dart';
 import 'package:samsung_pay_sdk_flutter/model/sheet_item.dart';
 import '../samsung_pay_listener.dart';
@@ -159,7 +160,7 @@ class SpinnerControl extends SheetControl {
       throw ArgumentError("addItem : same ID is used.");
     } else if (itemText.isEmpty) {
       throw ArgumentError("addItem : You must set value.");
-    } else if (location! < 0 || location > (items?.length)! - 1) {
+    } else if (location < 0 || location > (items?.length)! - 1) {
       throw ArgumentError("addItem : location is abnormal.");
     }
     SheetItem sheetItem = SheetItem(id: id, sValue: itemText);

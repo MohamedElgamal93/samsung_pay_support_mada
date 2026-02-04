@@ -1,10 +1,8 @@
-import 'dart:convert';
-
 /// Address object managed by UserInfoCollection returned when calling API
 ///
 class Address {
   static const String KEY_VERSION = "version";
-  static const  String KEY_ADDRESSEE = "addressee";
+  static const String KEY_ADDRESSEE = "addressee";
   static const String KEY_ADDRESS_LINE1 = "addressLine1";
   static const String KEY_ADDRESS_LINE2 = "addressLine2";
   static const String KEY_CITY = "city";
@@ -22,27 +20,26 @@ class Address {
   String? countryCode;
   String? postalCode;
   String? phoneNumber;
-  Map<String,dynamic>? extraAddressInfo;
+  Map<String, dynamic>? extraAddressInfo;
   String? email;
 
-/// Constructor to create Address.<br>
-///
+  /// Constructor to create Address.<br>
+  ///
   Address({
-     this.addressee,
-     this.addressLine1,
-     this.addressLine2,
-     this.city,
-     this.state,
-     this.countryCode,
-     this.postalCode,
-     this.phoneNumber,
+    this.addressee,
+    this.addressLine1,
+    this.addressLine2,
+    this.city,
+    this.state,
+    this.countryCode,
+    this.postalCode,
+    this.phoneNumber,
     this.email,
     this.extraAddressInfo,
   });
 
   ///@nodoc
-  factory Address.fromJson(Map<String, dynamic> json) =>
-      Address(
+  factory Address.fromJson(Map<String, dynamic> json) => Address(
         addressee: json["addressee"],
         addressLine1: json["addressLine1"],
         addressLine2: json["addressLine2"],
@@ -56,36 +53,36 @@ class Address {
       );
 
   ///@nodoc
-  Map<String, dynamic> toJson(){
+  Map<String, dynamic> toJson() {
     Map<String, dynamic> addressJson = {};
-    if(addressee != null) {
+    if (addressee != null) {
       addressJson["addressee"] = addressee;
     }
-    if(addressLine1 != null) {
+    if (addressLine1 != null) {
       addressJson["addressLine1"] = addressLine1;
     }
-    if(addressLine2 != null) {
+    if (addressLine2 != null) {
       addressJson["addressLine2"] = addressLine2;
     }
-    if(city != null) {
+    if (city != null) {
       addressJson["city"] = city;
     }
-    if(state != null) {
+    if (state != null) {
       addressJson["state"] = state;
     }
-    if(countryCode != null) {
+    if (countryCode != null) {
       addressJson["countryCode"] = countryCode;
     }
-    if(postalCode != null) {
+    if (postalCode != null) {
       addressJson["postalCode"] = postalCode;
     }
-    if(phoneNumber != null) {
+    if (phoneNumber != null) {
       addressJson["phoneNumber"] = phoneNumber;
     }
-    if(extraAddressInfo != null) {
+    if (extraAddressInfo != null) {
       addressJson["extraAddressInfo"] = extraAddressInfo;
     }
-    if(email != null) {
+    if (email != null) {
       addressJson["email"] = email;
     }
     return addressJson;

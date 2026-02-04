@@ -1,4 +1,3 @@
-import 'dart:convert';
 import 'package:samsung_pay_sdk_flutter/model/payment_card_info.dart';
 import 'package:samsung_pay_sdk_flutter/model/sheet_control.dart';
 import 'package:samsung_pay_sdk_flutter/samsung_pay_listener.dart';
@@ -260,6 +259,7 @@ class CustomSheetPaymentInfo {
     else if (extraPaymentInfo![SpaySdk.EXTRA_CARD_BRAND] == Brand.OCTOPUS.name)
       return Brand.OCTOPUS;
     else if (extraPaymentInfo![SpaySdk.EXTRA_CARD_BRAND] == Brand.UNKNOWN_CARD.name) return Brand.UNKNOWN_CARD;
+    return null;
   }
 
   /// API to return the last 4 digits of DPAN which was used in the current transaction.<br>
@@ -300,14 +300,13 @@ class CustomSheetPaymentInfo {
   ///
 
   String? getPaymentCurrencyCode() {
-    if (customSheet != null) {
-      for (SheetControl sheet in customSheet.getSheetControls()!) {
-        if (sheet.controltype == Controltype.AMOUNTBOX) {
-          AmountBoxControl amountBoxControl = sheet as AmountBoxControl;
-          return amountBoxControl.currencyCode;
-        }
+    for (SheetControl sheet in customSheet.getSheetControls()!) {
+      if (sheet.controltype == Controltype.AMOUNTBOX) {
+        AmountBoxControl amountBoxControl = sheet as AmountBoxControl;
+        return amountBoxControl.currencyCode;
       }
     }
+
     return "";
   }
 

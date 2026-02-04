@@ -1,4 +1,4 @@
-import 'dart:convert';
+import 'dart:convert' show jsonEncode, jsonDecode;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:samsung_pay_sdk_flutter/model/address_control.dart';

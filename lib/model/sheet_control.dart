@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import '../spay_core.dart';
 
 ///
@@ -42,7 +40,7 @@ class SheetControl {
   /// Return The controlId of the SheetControl.
   ///
 
-  String? getControlId(){
+  String? getControlId() {
     return controlId;
   }
 
@@ -59,13 +57,13 @@ class SheetControl {
   //TODO
   ///@nodoc
   factory SheetControl.fromJson(Map<String, dynamic> json) => SheetControl._builder(
-    controltype: json["controltype"],
-    controlId: json["controlId"],
-  );
+        controltype: json["controltype"],
+        controlId: json["controlId"],
+      );
 
   ///@nodoc
   Map<String, dynamic> toJson() => {
-    "controltype": controltype.name,
-    "controlId": controlId,
-  };
+        "controltype": controltype.name,
+        "controlId": controlId,
+      };
 }
